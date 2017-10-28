@@ -16,13 +16,26 @@
                     <view key="view" contentMode="scaleToFill" id="0HG-H4-K4z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8I9-6L-5Gj">
+                                <rect key="frame" x="164" y="318" width="47" height="30"/>
+                                <state key="normal" title="START"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="j6Q-0x-Tzx"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8I9-6L-5Gj" firstAttribute="centerX" secondItem="0HG-H4-K4z" secondAttribute="centerX" id="ITI-No-5FA"/>
+                            <constraint firstItem="8I9-6L-5Gj" firstAttribute="centerY" secondItem="0HG-H4-K4z" secondAttribute="centerY" id="eyb-D3-ifj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gzK-Tx-Ox6"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rfh-Xl-0Wo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-394" y="34"/>
+            <point key="canvasLocation" x="-806" y="34"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">

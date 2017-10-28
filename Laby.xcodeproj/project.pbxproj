@@ -15,6 +15,10 @@
 		8BACDD5C1FA381910068730A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BACDD5B1FA381910068730A /* Assets.xcassets */; };
 		8BACDD5F1FA381910068730A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BACDD5D1FA381910068730A /* LaunchScreen.storyboard */; };
 		8BACDD671FA382F40068730A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BACDD661FA382F40068730A /* StartViewController.swift */; };
+		8BC720921FA3970C00282320 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC720911FA3970300282320 /* CoreMotion.framework */; };
+		8BD37A931FA52CE2002625F0 /* 60968144-Football-field-or-soccer-field-pattern-and-texture-Abstract-soccer-field-or-football-field-backgroun-Stock-Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BD37A921FA52CE2002625F0 /* 60968144-Football-field-or-soccer-field-pattern-and-texture-Abstract-soccer-field-or-football-field-backgroun-Stock-Photo.jpg */; };
+		8BD37A951FA52CE8002625F0 /* football-157930_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD37A941FA52CE8002625F0 /* football-157930_960_720.png */; };
+		8BF24A8D1FA3A6AB00102CB0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF24A8C1FA3A6AB00102CB0 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		8BACDD5E1FA381910068730A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BACDD601FA381910068730A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BACDD661FA382F40068730A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		8BC720911FA3970300282320 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8BD37A921FA52CE2002625F0 /* 60968144-Football-field-or-soccer-field-pattern-and-texture-Abstract-soccer-field-or-football-field-backgroun-Stock-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "60968144-Football-field-or-soccer-field-pattern-and-texture-Abstract-soccer-field-or-football-field-backgroun-Stock-Photo.jpg"; sourceTree = "<group>"; };
+		8BD37A941FA52CE8002625F0 /* football-157930_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "football-157930_960_720.png"; sourceTree = "<group>"; };
+		8BF24A8C1FA3A6AB00102CB0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC720921FA3970C00282320 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,7 @@
 			children = (
 				8BACDD4D1FA381900068730A /* Laby */,
 				8BACDD4C1FA381900068730A /* Products */,
+				8BC720901FA3970300282320 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +70,11 @@
 		8BACDD4D1FA381900068730A /* Laby */ = {
 			isa = PBXGroup;
 			children = (
+				8BD37A961FA52CEC002625F0 /* texture */,
 				8BACDD4E1FA381910068730A /* AppDelegate.swift */,
 				8BACDD501FA381910068730A /* GameScene.sks */,
 				8BACDD541FA381910068730A /* GameScene.swift */,
+				8BF24A8C1FA3A6AB00102CB0 /* Extension.swift */,
 				8BACDD561FA381910068730A /* GameViewController.swift */,
 				8BACDD661FA382F40068730A /* StartViewController.swift */,
 				8BACDD581FA381910068730A /* Main.storyboard */,
@@ -71,6 +83,23 @@
 				8BACDD601FA381910068730A /* Info.plist */,
 			);
 			path = Laby;
+			sourceTree = "<group>";
+		};
+		8BC720901FA3970300282320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC720911FA3970300282320 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BD37A961FA52CEC002625F0 /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				8BD37A921FA52CE2002625F0 /* 60968144-Football-field-or-soccer-field-pattern-and-texture-Abstract-soccer-field-or-football-field-backgroun-Stock-Photo.jpg */,
+				8BD37A941FA52CE8002625F0 /* football-157930_960_720.png */,
+			);
+			path = texture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +161,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD37A931FA52CE2002625F0 /* 60968144-Football-field-or-soccer-field-pattern-and-texture-Abstract-soccer-field-or-football-field-backgroun-Stock-Photo.jpg in Resources */,
 				8BACDD5A1FA381910068730A /* Main.storyboard in Resources */,
 				8BACDD511FA381910068730A /* GameScene.sks in Resources */,
+				8BD37A951FA52CE8002625F0 /* football-157930_960_720.png in Resources */,
 				8BACDD5C1FA381910068730A /* Assets.xcassets in Resources */,
 				8BACDD5F1FA381910068730A /* LaunchScreen.storyboard in Resources */,
 			);
@@ -146,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF24A8D1FA3A6AB00102CB0 /* Extension.swift in Sources */,
 				8BACDD551FA381910068730A /* GameScene.swift in Sources */,
 				8BACDD671FA382F40068730A /* StartViewController.swift in Sources */,
 				8BACDD571FA381910068730A /* GameViewController.swift in Sources */,
