@@ -9,6 +9,7 @@
 import SpriteKit
 import GameplayKit
 import CoreMotion
+import AudioToolbox
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
@@ -58,9 +59,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             lbl.position = contact.contactPoint
             lbl.alpha = 0
             lbl.setScale(0.6)
-        
-            
             self.addChild(lbl)
+            
+            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate)) 
             
             lbl.run(SKAction.scale(to: 1.5, duration: 1.0))
             lbl.run(SKAction.sequence([SKAction.fadeIn(withDuration: 0.25),
